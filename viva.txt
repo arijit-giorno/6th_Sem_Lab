@@ -1,0 +1,21 @@
+1.Ethernet is a widely used LAN 
+    //Coaxical cable
+    10 base 2 -> 10mbps speed 200 meter
+    10 base 5 -> 10mbps speed 500 meter
+    //unshield twisted cable
+    10 base T -> 10mbps speed 100m
+    100 base T ->100mbps speed 100m
+    //optical fiber cable
+    100 base Fx -> 100mbps speed 2km
+2.Twisted pair cable is a cable made by interjoining two separate insulated wires and running them parallel to each
+    there are 2 type a.Unshield twested cable 
+                     b.Shield twesetd cable
+
+3.Category 5 cable(CAT5) is aslo TPcable for computer used for 100 Base T and 1000 base T.
+    EIA/TIA 568A and EIA/TIA 568B termination standards define the pins to pair assignment in CAT5
+4.Straight through cable is a type of TPC use in LAN to connect computer with router it is also called patch cable
+     here either both end use 568A or 568B standard ,use to connect two different type device
+5. it is use one end 568A and other end 568B wiring standard ,use to connect same type device
+
+    {w/or,or,w/gr,bl,w/bl,gr,w/br,br}----->568B
+    {w/gr,gr,w/or,bl,w/bl,or,w/br,br}----->568A
