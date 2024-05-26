@@ -19,3 +19,63 @@
 
     {w/or,or,w/gr,bl,w/bl,gr,w/br,br}----->568B
     {w/gr,gr,w/or,bl,w/bl,or,w/br,br}----->568A
+
+
+
+
+1.IPC(interprocess communication system) is a technique to communicate b/w processes and sync their action
+2.Pipe is a connection between two processes,such that the standard output from one process becomes the standard input of the other process
+    *Pipe is one-way communication only i.e we can use a pipe such that One process write to the pipe, and the other process reads from the      pipe
+    *The pipe can be used by the creating process, as well as all its child processes, for reading and writing. One process can write to         this “virtual file” or pipe and another related process can read from it.
+    *If a process tries to read before something is written to the pipe, the process is suspended until something is written.
+    * int pipe(int fds[2]);
+      fd[0] will be the fd(file descriptor) for the read end of pipe.
+      fd[1] will be the fd for the write end of pipe.
+            Returns : 0 on Success. -1 on error.
+3.A system call is a method for a computer program to request a service from the kernel of the operating system on which it is running.
+    The Application Program Interface (API) connects the operating system's functions to user programs. It acts as a link between the            operating system and a processThe Application Program Interface (API) connects the operating system's functions to user programs. It         acts as a link between the operating system and a process
+4.Transmission Control Protocol is a connection-oriented protocol for communications that helps in the exchange of messages between             different devices over a network. application layer> TCP < Network layer
+5.socket() function is used in network programming to create a socket, which is an endpoint for communication between two machines.
+6.The bind() function in C is used in network programming to associate a socket with a specific local IP address and port number
+7.stdio.h:
+Description: Standard Input and Output functions.
+Purpose: Provides functions for input and output operations, such as printf(), scanf(), fopen(), and fclose().
+
+
+string.h:
+Description: String handling functions.
+Purpose: Contains functions for manipulating C strings and arrays, such as strlen(), strcpy(), strcat(), and memcmp().
+
+
+sys/socket.h:
+Description: Core socket functions and data structures.
+Purpose: Defines socket functions and structures, such as socket(), bind(), connect(), and struct sockaddr.
+
+
+sys/types.h:
+Description: Data types used in system calls.
+Purpose: Defines data types used by system calls, such as pid_t, off_t, and size_t.
+
+
+netinet/in.h:
+Description: Internet address family.
+Purpose: Defines constants and structures for Internet domain addresses, such as struct sockaddr_in and INADDR_ANY.
+
+
+arpa/inet.h:
+Description: Functions for Internet operations.
+Purpose: Provides functions for manipulating IP addresses, such as inet_pton() and inet_ntop().
+
+
+unistd.h:
+Description: POSIX operating system API.
+Purpose: Declares miscellaneous functions from the POSIX standard, such as close(), read(), write(), and sleep().
+
+
+time.h:
+Description: Time and date functions.
+Purpose: Provides functions and types for manipulating time, such as time(), difftime(), clock(), and struct tm.
+
+8.
+
+
